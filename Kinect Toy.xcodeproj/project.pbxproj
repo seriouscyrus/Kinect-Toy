@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EF728121BC14E4A00EEE76D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF728111BC14E4A00EEE76D /* AppDelegate.m */; };
+		6EF728151BC14E4A00EEE76D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF728141BC14E4A00EEE76D /* main.m */; };
+		6EF728171BC14E4A00EEE76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF728161BC14E4A00EEE76D /* Assets.xcassets */; };
+		6EF7281A1BC14E4A00EEE76D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF728181BC14E4A00EEE76D /* MainMenu.xib */; };
+		6EF728251BC14E4A00EEE76D /* Kinect_ToyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF728241BC14E4A00EEE76D /* Kinect_ToyTests.m */; };
+		6EF728301BC14E4A00EEE76D /* Kinect_ToyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7282F1BC14E4A00EEE76D /* Kinect_ToyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EF728211BC14E4A00EEE76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF728051BC14E4A00EEE76D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF7280C1BC14E4A00EEE76D;
+			remoteInfo = "Kinect Toy";
+		};
+		6EF7282C1BC14E4A00EEE76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF728051BC14E4A00EEE76D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF7280C1BC14E4A00EEE76D;
+			remoteInfo = "Kinect Toy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EF7280D1BC14E4A00EEE76D /* Kinect Toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinect Toy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF728101BC14E4A00EEE76D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EF728111BC14E4A00EEE76D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EF728141BC14E4A00EEE76D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EF728161BC14E4A00EEE76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EF728191BC14E4A00EEE76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6EF7281B1BC14E4A00EEE76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF728201BC14E4A00EEE76D /* Kinect ToyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kinect ToyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF728241BC14E4A00EEE76D /* Kinect_ToyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kinect_ToyTests.m; sourceTree = "<group>"; };
+		6EF728261BC14E4A00EEE76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF7282B1BC14E4A00EEE76D /* Kinect ToyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kinect ToyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF7282F1BC14E4A00EEE76D /* Kinect_ToyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kinect_ToyUITests.m; sourceTree = "<group>"; };
+		6EF728311BC14E4A00EEE76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EF7280A1BC14E4A00EEE76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF7281D1BC14E4A00EEE76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF728281BC14E4A00EEE76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EF728041BC14E4A00EEE76D = {
+			isa = PBXGroup;
+			children = (
+				6EF7280F1BC14E4A00EEE76D /* Kinect Toy */,
+				6EF728231BC14E4A00EEE76D /* Kinect ToyTests */,
+				6EF7282E1BC14E4A00EEE76D /* Kinect ToyUITests */,
+				6EF7280E1BC14E4A00EEE76D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EF7280E1BC14E4A00EEE76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF7280D1BC14E4A00EEE76D /* Kinect Toy.app */,
+				6EF728201BC14E4A00EEE76D /* Kinect ToyTests.xctest */,
+				6EF7282B1BC14E4A00EEE76D /* Kinect ToyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EF7280F1BC14E4A00EEE76D /* Kinect Toy */ = {
+			isa = PBXGroup;
+			children = (
+				6EF728101BC14E4A00EEE76D /* AppDelegate.h */,
+				6EF728111BC14E4A00EEE76D /* AppDelegate.m */,
+				6EF728161BC14E4A00EEE76D /* Assets.xcassets */,
+				6EF728181BC14E4A00EEE76D /* MainMenu.xib */,
+				6EF7281B1BC14E4A00EEE76D /* Info.plist */,
+				6EF728131BC14E4A00EEE76D /* Supporting Files */,
+			);
+			path = "Kinect Toy";
+			sourceTree = "<group>";
+		};
+		6EF728131BC14E4A00EEE76D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EF728141BC14E4A00EEE76D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EF728231BC14E4A00EEE76D /* Kinect ToyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EF728241BC14E4A00EEE76D /* Kinect_ToyTests.m */,
+				6EF728261BC14E4A00EEE76D /* Info.plist */,
+			);
+			path = "Kinect ToyTests";
+			sourceTree = "<group>";
+		};
+		6EF7282E1BC14E4A00EEE76D /* Kinect ToyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EF7282F1BC14E4A00EEE76D /* Kinect_ToyUITests.m */,
+				6EF728311BC14E4A00EEE76D /* Info.plist */,
+			);
+			path = "Kinect ToyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EF7280C1BC14E4A00EEE76D /* Kinect Toy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF728341BC14E4A00EEE76D /* Build configuration list for PBXNativeTarget "Kinect Toy" */;
+			buildPhases = (
+				6EF728091BC14E4A00EEE76D /* Sources */,
+				6EF7280A1BC14E4A00EEE76D /* Frameworks */,
+				6EF7280B1BC14E4A00EEE76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kinect Toy";
+			productName = "Kinect Toy";
+			productReference = 6EF7280D1BC14E4A00EEE76D /* Kinect Toy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EF7281F1BC14E4A00EEE76D /* Kinect ToyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF728371BC14E4A00EEE76D /* Build configuration list for PBXNativeTarget "Kinect ToyTests" */;
+			buildPhases = (
+				6EF7281C1BC14E4A00EEE76D /* Sources */,
+				6EF7281D1BC14E4A00EEE76D /* Frameworks */,
+				6EF7281E1BC14E4A00EEE76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EF728221BC14E4A00EEE76D /* PBXTargetDependency */,
+			);
+			name = "Kinect ToyTests";
+			productName = "Kinect ToyTests";
+			productReference = 6EF728201BC14E4A00EEE76D /* Kinect ToyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EF7282A1BC14E4A00EEE76D /* Kinect ToyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF7283A1BC14E4A00EEE76D /* Build configuration list for PBXNativeTarget "Kinect ToyUITests" */;
+			buildPhases = (
+				6EF728271BC14E4A00EEE76D /* Sources */,
+				6EF728281BC14E4A00EEE76D /* Frameworks */,
+				6EF728291BC14E4A00EEE76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EF7282D1BC14E4A00EEE76D /* PBXTargetDependency */,
+			);
+			name = "Kinect ToyUITests";
+			productName = "Kinect ToyUITests";
+			productReference = 6EF7282B1BC14E4A00EEE76D /* Kinect ToyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EF728051BC14E4A00EEE76D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Serious Cyrus";
+				TargetAttributes = {
+					6EF7280C1BC14E4A00EEE76D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6EF7281F1BC14E4A00EEE76D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6EF7280C1BC14E4A00EEE76D;
+					};
+					6EF7282A1BC14E4A00EEE76D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6EF7280C1BC14E4A00EEE76D;
+					};
+				};
+			};
+			buildConfigurationList = 6EF728081BC14E4A00EEE76D /* Build configuration list for PBXProject "Kinect Toy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EF728041BC14E4A00EEE76D;
+			productRefGroup = 6EF7280E1BC14E4A00EEE76D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EF7280C1BC14E4A00EEE76D /* Kinect Toy */,
+				6EF7281F1BC14E4A00EEE76D /* Kinect ToyTests */,
+				6EF7282A1BC14E4A00EEE76D /* Kinect ToyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EF7280B1BC14E4A00EEE76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF728171BC14E4A00EEE76D /* Assets.xcassets in Resources */,
+				6EF7281A1BC14E4A00EEE76D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF7281E1BC14E4A00EEE76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF728291BC14E4A00EEE76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EF728091BC14E4A00EEE76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF728151BC14E4A00EEE76D /* main.m in Sources */,
+				6EF728121BC14E4A00EEE76D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF7281C1BC14E4A00EEE76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF728251BC14E4A00EEE76D /* Kinect_ToyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF728271BC14E4A00EEE76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF728301BC14E4A00EEE76D /* Kinect_ToyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EF728221BC14E4A00EEE76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EF7280C1BC14E4A00EEE76D /* Kinect Toy */;
+			targetProxy = 6EF728211BC14E4A00EEE76D /* PBXContainerItemProxy */;
+		};
+		6EF7282D1BC14E4A00EEE76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EF7280C1BC14E4A00EEE76D /* Kinect Toy */;
+			targetProxy = 6EF7282C1BC14E4A00EEE76D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EF728181BC14E4A00EEE76D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF728191BC14E4A00EEE76D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EF728321BC14E4A00EEE76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6EF728331BC14E4A00EEE76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6EF728351BC14E4A00EEE76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kinect Toy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.Kinect-Toy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EF728361BC14E4A00EEE76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kinect Toy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.Kinect-Toy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EF728381BC14E4A00EEE76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kinect ToyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.Kinect-ToyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinect Toy.app/Contents/MacOS/Kinect Toy";
+			};
+			name = Debug;
+		};
+		6EF728391BC14E4A00EEE76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kinect ToyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.Kinect-ToyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinect Toy.app/Contents/MacOS/Kinect Toy";
+			};
+			name = Release;
+		};
+		6EF7283B1BC14E4A00EEE76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kinect ToyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.Kinect-ToyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kinect Toy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6EF7283C1BC14E4A00EEE76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kinect ToyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.Kinect-ToyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kinect Toy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EF728081BC14E4A00EEE76D /* Build configuration list for PBXProject "Kinect Toy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF728321BC14E4A00EEE76D /* Debug */,
+				6EF728331BC14E4A00EEE76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF728341BC14E4A00EEE76D /* Build configuration list for PBXNativeTarget "Kinect Toy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF728351BC14E4A00EEE76D /* Debug */,
+				6EF728361BC14E4A00EEE76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EF728371BC14E4A00EEE76D /* Build configuration list for PBXNativeTarget "Kinect ToyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF728381BC14E4A00EEE76D /* Debug */,
+				6EF728391BC14E4A00EEE76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EF7283A1BC14E4A00EEE76D /* Build configuration list for PBXNativeTarget "Kinect ToyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF7283B1BC14E4A00EEE76D /* Debug */,
+				6EF7283C1BC14E4A00EEE76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EF728051BC14E4A00EEE76D /* Project object */;
+}
